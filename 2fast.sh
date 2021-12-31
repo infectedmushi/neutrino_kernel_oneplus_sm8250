@@ -10,7 +10,7 @@ export USE_CCACHE=1
 export ARCH=arm64
 export SUB_ARCH=arm64
 DTBIMAGE="dtb"
-export VARIANT="infected-r017"
+export VARIANT="infected-r18.5"
 export HASH=`git rev-parse --short=6 HEAD`
 export KERNEL_ZIP="$VARIANT-$HASH"
 export LOCALVERSION=~`echo $KERNEL_ZIP`
